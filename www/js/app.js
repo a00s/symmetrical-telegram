@@ -61,9 +61,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     })
     .state('welcome', {
         url: '/welcome',
-        templateUrl: 'templates/welcome.html'
+        templateUrl: 'templates/patient/welcome.html'
     })
-
+  .state('sign-up', {
+        url: '/sign-up',
+        templateUrl: 'templates/patient/sign-up.html'
+    })
   .state('tab.account', {
     url: '/account',
     views: {
