@@ -1,6 +1,17 @@
 <ion-view view-title="Home">
   <ion-content>
    <div class="padding" style="text-align: center;">
+     <ion-wheel>
+      <div id="activate" ng-click="showCircles()"><i ng-class="circlesHidden ? 'ion-arrow-expand' : 'ion-arrow-shrink'"></i></div>
+      <div class="circle"><i class="icon ion-home"></i></div>
+      <div class="circle"><i class="icon ion-alert-circled"></i></div>
+      <div class="circle"><i class="icon ion-heart-broken"></i></div>
+      <div class="circle"><i class="icon ion-trash-a"></i></div>
+      <div class="circle"><i class="icon ion-email"></i></div>
+      <div class="circle"><i class="icon ion-at"></i></div>
+      <div class="circle"><i class="icon ion-pin"></i></div>
+      <div class="circle"><i class="icon ion-lock-combination"></i></div>
+    </ion-wheel>
        <h2 style="text-align: center;">My Health Hub</h2>
        <div class="row">
          <div class="col item"><i class="icon ion-calendar"></i><p>Calendar</p></div>
