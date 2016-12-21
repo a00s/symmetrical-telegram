@@ -67,6 +67,14 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         url: '/sign-up',
         templateUrl: 'templates/patient/sign-up.html'
     })
+  .state('calendar', {
+        url: '/calendar',
+        templateUrl: 'templates/patient/calendar.html'
+    })
+  .state('medical-contacts', {
+        url: '/medical-contacts',
+        templateUrl: 'templates/patient/medical-contacts.html'
+    })
   .state('terms-and-conditions', {
         url: '/terms-and-conditions',
         templateUrl: 'templates/patient/terms-and-conditions.html'
