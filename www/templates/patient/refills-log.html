@@ -1,0 +1,111 @@
+<ion-view view-title="Medication In-Take">
+	<ion-content>
+	<style>
+		.in-take {
+			outline: #000000 solid 1px;
+			height: 40px;
+			padding-top: 10px;
+		}
+		.edit {
+			height: 40px;
+			padding-top: 10px;
+			outline: none;
+		}
+
+		.medications {
+			height: 80px;
+			outline: #000000 solid 1px;
+			width: 100%;
+			display: table;
+		}
+
+	</style>
+	
+	<div class="edit"> 
+		<div style="" style="width: 200px; padding-top: 10px">
+			<div style="padding-left: 30%; display: inline-block; color: black; text-align: center">Edit</div>
+			<a href="#/new-medication"> <i class="icon ion-plus-round" style="padding-left: 30%"> </i> </a>
+		</div>
+	</div>
+
+	<div style="height: 60px; background-color: #F0F0F0;">
+		<div style="height: 20px"></div>
+		<span style="height: 100%; width: 100%; font-size: 20px; text-align: center; padding-left: 120px;">REFILL LOG at CVS</span>
+	</div>
+	<div class="medications">
+			<div style="display: table-cell; padding-top: 5%; padding-left: 10px; vertical-align: middle">
+				<div style="padding-left: 8px; font-size: 20px;">AUG</div>
+				<div style="padding-left: 15px; font-size: 25px;">22</div>
+			</div>
+			<img src="../../img/cancelled-box.png" style="float: left; padding-left: 20%; height: 80px; display: inline-block">
+			<div style="padding-left: 5%; display: table-cell; width: 70%; vertical-align: middle; text-align: left">
+				<span style="font-weight: bold">Ibuprofen</span> <br />
+				25 tablets 50mg <br />
+				<span style="background-color: gray; color: white;">1 REFILL</span> <br />
+			</div>
+			<i class="icon ion-chevron-right" style="display:table-cell; width: 100px; vertical-align: middle"> </i>
+	</div>
+
+	<div style="height: 60px; background-color: #F0F0F0;">
+		<div style="height: 20px"></div>
+		<span style="height: 100%; width: 100%; font-size: 20px; text-align: center; padding-left: 120px;">Refills Due   SEP 11</span>
+	</div>
+	<div class="medications">
+			<img src="../../img/cancelled-box.png" style="padding-left: 30%; height: 80px; display: inline-block">
+			<div style="padding-left: 5%; display: table-cell; width: 70%; vertical-align: middle; text-align: left">
+				<span style="font-weight: bold">Hydrocodone</span> <br />
+				100 tablets 2.5/325mg <br />
+				1 REFILL <br />
+			</div>
+			<i class="icon ion-chevron-right" style="display:table-cell; width: 100px; vertical-align: middle"> </i>
+	</div>
+	
+	<div class="medications">
+			<img src="../../img/cancelled-box.png" style="padding-left: 30%; height: 80px; display: inline-block">
+			<div style="padding-left: 5%; display: table-cell; width: 70%; vertical-align: middle; text-align: left">
+				<span style="font-weight: bold">Lisinopril</span> <br />
+				50 tablets 2.5mg <br />
+				1 REFILL <br />
+			</div>
+			<i class="icon ion-chevron-right" style="display:table-cell; width: 100px; vertical-align: middle"> </i>
+	</div>
+
+	</ion-content>
+
+		<div class="bar bar-footer" style="position: fixed; bottom: 0; margin: 0">
+          <div style="padding-left: 7%">
+	          <a href="#/home">
+	            <button class="icon ion-home"></button>
+	          </a>
+      	  </div>
+      	  <div style="padding-left: 7%">
+	          <a href="#/calendar">
+	            <button class="icon ion-calendar"></button>
+	          </a>
+          </div>
+          <div style="padding-left: 7%">
+	          <a href="#/medical-contacts">
+	            <button class="icon ion-email"></button>
+	          </a>
+          </div>
+          <div style="padding-left: 7%">
+          	<button class="icon ion-person"></button>
+          </div>
+          <div style="padding-left: 7%">
+          	<button class="icon ion-document"></button>
+          </div>
+          <div style="padding-left: 7%">
+          	<button class="icon ion-heart"></button>
+          </div>
+          <div style="padding-left: 7%">
+          	<button class="icon ion-alert-circled"></button>
+          </div>
+          <div style="padding-left: 7%">
+          	<button class="icon ion-pin"></button>
+      	  </div>
+      	  <div style="padding-left: 7%">
+          	<button class="icon ion-lock-combination"></button>
+          </div>
+    </div>
+
+</ion-view>
