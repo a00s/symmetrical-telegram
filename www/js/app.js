@@ -87,6 +87,50 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         url: '/home',
         templateUrl: 'templates/patient/home.html'
     })
+  .state('about-you', {
+        url: '/about-you',
+        templateUrl: 'templates/patient/about-you.html'
+    })
+  .state('clinical-research-results', {
+        url: '/clinical-research-results',
+        templateUrl: 'templates/patient/clinical-research-results.html'
+    })
+  .state('clinical-research', {
+        url: '/clinical-research',
+        templateUrl: 'templates/patient/clinical-research.html'
+    })
+  .state('medication-alert-settings', {
+        url: '/medication-alert-settings',
+        templateUrl: 'templates/patient/medication-alert-settings.html'
+    })
+  .state('medication-alert', {
+        url: '/medication-alert',
+        templateUrl: 'templates/patient/medication-alert.html'
+    })
+  .state('medication', {
+        url: '/medication',
+        templateUrl: 'templates/patient/medication.html'
+    })
+  .state('new-medication', {
+        url: '/new-medication',
+        templateUrl: 'templates/patient/new-medication.html'
+    })
+  .state('rareshare-options', {
+        url: '/rareshare-options',
+        templateUrl: 'templates/patient/rareshare-options.html'
+    })
+  .state('refills-log', {
+        url: '/refills-log',
+        templateUrl: 'templates/patient/refills-log.html'
+    })
+  .state('scientific-consult', {
+        url: '/scientific-consult',
+        templateUrl: 'templates/patient/scientific-consult.html'
+    })
+  .state('single-medication', {
+        url: '/single-medication',
+        templateUrl: 'templates/patient/single-medication.html'
+    })
   .state('tab.account', {
     url: '/account',
     views: {
